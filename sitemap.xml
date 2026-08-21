@@ -4,56 +4,86 @@
 
   <url>
        <loc>https://sectorpublico.infoset.org.pe/</loc>
-       <lastmod>2026-08-20T11:08:30+00:00</lastmod>
+       <lastmod>2026-08-21T09:22:52+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>1.0000</priority>
   </url>
   <url>
        <loc>https://sectorpublico.infoset.org.pe/index.html</loc>
-       <lastmod>2026-08-20T11:08:30+00:00</lastmod>
+       <lastmod>2026-08-21T09:22:52+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sectorpublico.infoset.org.pe/cursos.html</loc>
-       <lastmod>2026-08-20T11:08:30+00:00</lastmod>
+       <lastmod>2026-08-21T09:22:52+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sectorpublico.infoset.org.pe/certificacion.html</loc>
-       <lastmod>2026-08-20T11:08:30+00:00</lastmod>
+       <lastmod>2026-08-21T09:22:52+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sectorpublico.infoset.org.pe/nosotros.html</loc>
-       <lastmod>2026-08-20T11:08:30+00:00</lastmod>
+       <lastmod>2026-08-21T09:22:52+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sectorpublico.infoset.org.pe/contactos.html</loc>
-       <lastmod>2026-08-20T11:08:30+00:00</lastmod>
+       <lastmod>2026-08-21T09:22:52+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sectorpublico.infoset.org.pe/aviso_legal.html</loc>
-       <lastmod>2026-08-20T11:08:30+00:00</lastmod>
+       <lastmod>2026-08-21T09:22:52+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sectorpublico.infoset.org.pe/terminos_y_condiciones.html</loc>
-       <lastmod>2026-08-20T11:08:30+00:00</lastmod>
+       <lastmod>2026-08-21T09:22:52+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sectorpublico.infoset.org.pe/politica_de_privacidad.html</loc>
-       <lastmod>2026-08-20T11:08:30+00:00</lastmod>
+       <lastmod>2026-08-21T09:22:52+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://sectorpublico.infoset.org.pe/curso_gestion_publica_y_tributacion_municipal.html</loc>
+       <lastmod>2026-08-21T09:22:52+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://sectorpublico.infoset.org.pe/certificados/certificado_0003.html</loc>
+       <lastmod>2026-08-21T09:22:52+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://sectorpublico.infoset.org.pe/Lista%20de%20Estudiantes.html</loc>
+       <lastmod>2026-08-21T09:22:52+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://sectorpublico.infoset.org.pe/certificados/pdf/Certificado%200003%20-%20GABRIELA%20FERNANDA%20QUISPE%20FLORES.pdf</loc>
+       <lastmod>2026-08-21T09:22:52+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://sectorpublico.infoset.org.pe/perfil_profesional/0003/CV.pdf</loc>
+       <lastmod>2026-08-21T09:22:52+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
   </url>
 </urlset>
