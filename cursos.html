@@ -91,7 +91,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Cursos Gratis</h2>
-        <p class="lead">Aquí se presentan nuestros cursos gratuitos.</p>
+        <p class="lead">Aquí se presentan nuestros cursos gratuitos de Sector Público.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -103,16 +103,16 @@
               <label for="filtroCursos" class="form-label"><strong>Filtrar por categoría:</strong></label>
               <select id="filtroCursos" class="form-select" style="cursor: pointer;">
                 <option value="todos">Mostrar Todos</option>
-                <option value="mineria">Minería</option>
-                <option value="industrial">Industrial</option>
-                <option value="administracion">Administración</option>
-                <option value="construccion">Construcción</option>
-                <option value="sst-ssoma">SST/SSOMA</option>
+                <option value="gestion_publica">Gestión Pública y Administración</option>
+                <option value="gestion_administrativa">Sistemas y Gestión Administrativa del Estado</option>
+                <option value="ofimatica">Tecnologías de la Información y Ofimática</option>
+                <option value="educacion">Educación y Capacitación</option>
+                <option value="derecho">Derecho y Gestión Documental</option>
               </select>
             </div>
           </div>
 
-          <!-- CURSOS (справа на больших экранах, снизу на мобильных) -->
+          <!-- CURSOS  -->
           <div class="col-lg-9 col-md-8" data-aos="fade-up">
 
             <!-- INPUT DE BÚSQUEDA -->
@@ -122,11 +122,11 @@
             </div>
 
             <!-- Curso 1 -->
-            <div class="card curso mb-3" data-categoria="construccion" style="max-width: 100%;">
+            <div class="card curso mb-3" data-categoria="gestion_publica" style="max-width: 100%;">
               <div class="row g-0">
 
                 <div class="col-auto d-flex align-items-center ps-3">
-                  <img src="assets/img/img_cursos_mini/constr_seguridad.png"
+                  <img src="assets/img/img_cursos_mini/Gestión Pública y Tributación Municipal.jpg"
                     style="width: 80px; height: 40px; object-fit: cover;" class="rounded" alt="Curso">
                 </div>
 
@@ -134,15 +134,15 @@
                   <div class="card-body py-3">
 
                     <h5 class="card-title mb-0">
-                      <a href="curso_seguridad_en_construccion.html" class="text-decoration-none">
-                        Seguridad en los Trabajos de Construcción
+                      <a href="curso_gestion_publica_y_tributacion_municipal.html" class="text-decoration-none">
+                        Gestión Pública y Tributación Municipal
                       </a>
                     </h5>
 
                     <small class="text-muted">
-                      <i class="bi bi-clock"></i> 24 h.a. ·
-                      <i class="bi bi-journal-bookmark"></i> 11 módulos ·
-                      <i class="bi bi-tag"></i> Construcción
+                      <i class="bi bi-clock"></i> 60 h.a. ·
+                      <i class="bi bi-journal-bookmark"></i> 6 módulos ·
+                      <i class="bi bi-tag"></i> Gestión Pública y Administración
                     </small>
 
                   </div>
@@ -172,11 +172,11 @@
 
         function contarCategorias() {
           const conteo = {
-            mineria: 0,
-            industrial: 0,
-            administracion: 0,
-            construccion: 0,
-            'sst-ssoma': 0
+            gestion_publica: 0,
+            gestion_administrativa: 0,
+            ofimatica: 0,
+            educacion: 0,
+            derecho: 0
           };
 
           cursos.forEach(curso => {
@@ -185,11 +185,11 @@
           });
 
           filtro.querySelector('option[value="todos"]').textContent = 'Mostrar Todos (' + cursos.length + ')';
-          filtro.querySelector('option[value="mineria"]').textContent = 'Minería (' + conteo.mineria + ')';
-          filtro.querySelector('option[value="industrial"]').textContent = 'Industrial (' + conteo.industrial + ')';
-          filtro.querySelector('option[value="administracion"]').textContent = 'Administración (' + conteo.administracion + ')';
-          filtro.querySelector('option[value="construccion"]').textContent = 'Construcción (' + conteo.construccion + ')';
-          filtro.querySelector('option[value="sst-ssoma"]').textContent = 'SST/SSOMA (' + conteo['sst-ssoma'] + ')';
+          filtro.querySelector('option[value="gestion_publica"]').textContent = 'Gestión Pública y Administración (' + conteo.gestion_publica + ')';
+          filtro.querySelector('option[value="gestion_administrativa"]').textContent = 'Sistemas y Gestión Administrativa del Estado (' + conteo.gestion_administrativa + ')';
+          filtro.querySelector('option[value="ofimatica"]').textContent = 'Tecnologías de la Información y Ofimática (' + conteo.ofimatica + ')';
+          filtro.querySelector('option[value="educacion"]').textContent = 'Educación y Capacitación (' + conteo.educacion + ')';
+          filtro.querySelector('option[value="derecho"]').textContent = 'Derecho y Gestión Documental (' + conteo.derecho + ')';
         }
 
         function aplicarFiltros() {
